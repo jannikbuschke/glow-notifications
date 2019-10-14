@@ -1,0 +1,53 @@
+{
+  "name": "glow-react-notifications",
+  "version": "0.1.0",
+  "author": "Jannik Buschke",
+  "description": "ant design frontend for aspnetcore glow-notifications",
+  "displayName": "glow-notifications",
+  "keywords": [
+    "react",
+    "notifications"
+  ],
+  "sideEffects": false,
+  "license": "MIT",
+  "private": false,
+  "files": [
+    "lib",
+    "src",
+    "es"
+  ],
+  "module": "./es/index.js",
+  "main": "./lib/index.js",
+  "types": "./lib/types.d.ts",
+  "scripts": {
+    "build": "tsc && tsc -p tsconfig.es.json",
+    "tsc": "tsc && tsc -p tsconfig.es.json",
+    "watch": "tsc --watch",
+    "cleanbuild": "rm -r node_modules && npm install && tsc",
+    "prettier": "prettier --write src/**/*.* package.json"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "react": ">= 16.8.0 < 17",
+    "react-dom": ">= 16.8.0 < 17"
+  },
+  "devDependencies": {
+    "antd": "3.23.6",
+    "@types/jest": "24.0.18",
+    "@types/node": "12.7.11",
+    "@types/react": "16.9.5",
+    "@types/react-dom": "16.9.1",
+    "formik": "1.5.8",
+    "react": "16.10.2",
+    "react-dom": "16.10.2",
+    "tslib": "1.10.0",
+    "typescript": "3.6.3",
+    "eslint-config-prettier": "6.3.0",
+    "eslint-plugin-prettier": "3.1.1",
+    "prettier": "1.18.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jannikbuschke/glow-react-notifications/"
+  }
+}
