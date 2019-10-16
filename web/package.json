@@ -20,7 +20,6 @@
   "main": "./lib/index.js",
   "types": "./lib/types.d.ts",
   "scripts": {
-    "build": "tsc && tsc -p tsconfig.es.json",
     "tsc": "tsc && tsc -p tsconfig.es.json",
     "watch": "tsc --watch",
     "cleanbuild": "rm -r node_modules && npm install && tsc",
@@ -32,14 +31,13 @@
     "react-dom": ">= 16.8.0 < 17"
   },
   "devDependencies": {
-    "antd": "3.23.6",
+    "antd": "3.23.5",
     "@types/jest": "24.0.18",
     "@types/node": "12.7.11",
     "@types/react": "16.9.5",
     "@types/react-dom": "16.9.1",
-    "formik": "1.5.8",
-    "react": "16.10.2",
-    "react-dom": "16.10.2",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
     "tslib": "1.10.0",
     "typescript": "3.6.3",
     "eslint-config-prettier": "6.3.0",
