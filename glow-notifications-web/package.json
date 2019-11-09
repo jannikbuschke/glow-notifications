@@ -1,5 +1,5 @@
 {
-  "name": "glow-react-notifications",
+  "name": "glow-notifications-react",
   "version": "0.1.0",
   "author": "Jannik Buschke",
   "description": "ant design frontend for aspnetcore glow-notifications",
@@ -28,7 +28,8 @@
   "dependencies": {},
   "peerDependencies": {
     "react": ">= 16.8.0 < 17",
-    "react-dom": ">= 16.8.0 < 17"
+    "react-dom": ">= 16.8.0 < 17",
+    "mitt": ">=1.2.0 < 2"
   },
   "devDependencies": {
     "antd": "3.23.5",
@@ -42,7 +43,9 @@
     "typescript": "3.6.3",
     "eslint-config-prettier": "6.3.0",
     "eslint-plugin-prettier": "3.1.1",
-    "prettier": "1.18.2"
+    "prettier": "1.18.2",
+    "mitt": "1.2.0",
+    "msal-react": "0.1.0"
   },
   "repository": {
     "type": "git",
