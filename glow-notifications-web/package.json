@@ -31,7 +31,7 @@
     "react-dom": ">= 16.8.0 < 17"
   },
   "devDependencies": {
-    "antd": "4.6.6",
+    "antd": "4.8.4",
     "@types/jest": "24.0.18",
     "@types/node": "14.0.1",
     "@types/react": "16.9.35",
