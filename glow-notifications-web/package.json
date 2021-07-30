@@ -26,10 +26,6 @@
     "prettier": "prettier --write src/**/*.* package.json"
   },
   "dependencies": {},
-  "peerDependencies": {
-    "react": ">= 16.8.0 < 18",
-    "react-dom": ">= 16.8.0 < 18"
-  },
   "devDependencies": {
     "antd": "4.16.9",
     "@types/node": "14.0.1",
