@@ -1,7 +1,7 @@
 import * as React from "react"
 import { Field, FieldProps } from "formik"
 import { Popconfirm, message } from "antd"
-import { PopconfirmProps } from "antd/lib/popconfirm"
+import { PopconfirmProps } from "antd/es/popconfirm"
 
 export function ConfirmAction({
   onConfirm,

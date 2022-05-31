@@ -1,7 +1,7 @@
 import * as React from "react"
 import { Field, FieldProps } from "formik"
 import { Button, message } from "antd"
-import { ButtonProps } from "antd/lib/button"
+import { ButtonProps } from "antd/es/button"
 
 export function ActionButton({ onClick, ...props }: ButtonProps) {
   const [loading, setLoading] = React.useState(false)
